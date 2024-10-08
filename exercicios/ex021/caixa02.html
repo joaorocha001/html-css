@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(26, 0, 128);
+            margin: 0px;
+        }
+
+   
+
+        header{
+            background-color: white;
+            padding: 10px 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: black;
+            padding: 3px;
+            text-align: right;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.32);
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 100px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 3px 10px;
+            border-radius: 10px 20px 10px 20px;
+        }
+        
+        section > p{
+            padding-left: 3px;
+            font-weight: bold;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 3px;
+        }
+
+        article > aside{
+            background-color: rgb(52, 52, 52);
+            color: white;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Maria</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Resumo do dia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repudiandae eligendi natus ipsum quisquam necessitatibus? Ad temporibus, vitae pariatur natus provident optio quisquam, quas, a deserunt nulla illo deleniti corporis!</p>
+                <aside>
+                    <p>João Pedro R</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por João</p>
+    </footer>
+</body>
+</html>
