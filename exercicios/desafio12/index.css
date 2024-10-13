@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 98.5vw;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 12vh 0vw;
+}
+
+header h1{
+    font-size: 8vh;
+}
+
+header h3{
+    font-size: 3vh;
+    text-align: center;
+}
+
+header h3 a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+header h3 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+section p{
+    font-size: 2vw;
+    padding: 5vw;
+    line-height: 11vh;
+}
+
+#caixa{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    color: white;
+    border-radius: 1vw;
+    width: 50vw;
+}
+
+#text{
+    width: 35vw;
+}
+
+#foto{
+    background: black url(imagens/pexels-pixabay-40731.jpg) right top no-repeat fixed;
+    background-size: cover;
+    width: 88.5vw;
+    padding: 5vw;
+}
+
+@media (max-width: 700px){
+    section p{
+        line-height: 6vh;
+        font-size: 3vw;
+    }
+
+    header{
+        width: 96.69vw;
+    }
+
+    #foto{
+        width: 86.6vw;
+    }
+}
