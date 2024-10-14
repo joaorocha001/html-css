@@ -5,16 +5,19 @@
 
 header{
     width: 98.5vw;
-    background-color: yellowgreen;
     text-align: center;
     padding: 12vh 0vw;
+    background: black url(imagens/agua.webp) center top no-repeat fixed;
+    background-size: cover;
 }
 
 header h1{
     font-size: 8vh;
+    color: rgb(0, 0, 0);
 }
 
 header h3{
+    color: rgb(0, 0, 0);
     font-size: 3vh;
     text-align: center;
 }
@@ -22,12 +25,11 @@ header h3{
 header h3 a{
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 header h3 a:hover{
     text-decoration: underline;
-    color: white;
 }
 
 section p{
@@ -54,7 +56,47 @@ section p{
     padding: 5vw;
 }
 
-@media (max-width: 700px){
+#livro{
+    background: black url(imagens/pexels-chuck-3113534.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width: 88.5vw;
+    padding: 5vw;
+}
+
+footer{
+    background-color: rgb(13, 60, 11);
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1vh 0vw;
+}
+
+@media (max-width: 900px){
+    section p{
+        line-height: 10vh;
+        font-size: 3vw;
+    }
+
+    header{
+        width: 98vw;
+    }
+
+    #foto{
+        width: 87.6vw;
+    }
+
+    #livro{
+        width: 87.6vw;
+    }
+
+    footer{
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 650px){
     section p{
         line-height: 6vh;
         font-size: 3vw;
@@ -66,5 +108,13 @@ section p{
 
     #foto{
         width: 86.6vw;
+    }
+
+    #livro{
+        width: 86.6vw;
+    }
+
+    footer{
+        font-size: 2vw;
     }
 }
