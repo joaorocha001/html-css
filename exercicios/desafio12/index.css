@@ -4,7 +4,6 @@
 }
 
 header{
-    width: 98.5vw;
     text-align: center;
     padding: 12vh 0vw;
     background: black url(imagens/agua.webp) center top no-repeat fixed;
@@ -55,14 +54,12 @@ section p{
 #foto{
     background: black url(imagens/pexels-pixabay-40731.jpg) right top no-repeat fixed;
     background-size: cover;
-    width: 88.5vw;
     padding: 5vw;
 }
 
 #livro{
     background: black url(imagens/pexels-chuck-3113534.jpg) center center no-repeat fixed;
     background-size: cover;
-    width: 88.5vw;
     padding: 5vw;
 }
 
@@ -82,18 +79,6 @@ footer{
         font-size: 2.5vw;
     }
 
-    header{
-        width: 98vw;
-    }
-
-    #foto{
-        width: 87.6vw;
-    }
-
-    #livro{
-        width: 87.6vw;
-    }
-
     footer{
         font-size: 2vw;
     }
@@ -103,18 +88,6 @@ footer{
     section p{
         line-height: 6vh;
         font-size: 2.5vw;
-    }
-
-    header{
-        width: 96.69vw;
-    }
-
-    #foto{
-        width: 86.6vw;
-    }
-
-    #livro{
-        width: 86.6vw;
     }
 
     footer{
